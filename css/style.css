@@ -3,7 +3,7 @@
 
 /* Global style begins here */
 body {
-	font-family: 'Vernada','Calibri','PingFangTC','MicrosoftJhengHei';
+	font-family: 'Vernada','Calibri','PingFangTC','MicrosoftJhengHei',sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 }
@@ -99,6 +99,12 @@ body.active #Banner h1  {
   content: "";
   top: 0;
 }
+@media only screen and (min-width: 1025px) and (max-width: 1399px) {
+	#Banner .blacksection::before {
+		width: 2050px;
+	}
+}
+
 .mscroll {
 	opacity: 0;
 	position: absolute;

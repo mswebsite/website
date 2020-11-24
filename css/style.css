@@ -99,7 +99,7 @@ body.active #Banner h1  {
   content: "";
   top: 0;
 }
-@media only screen and (min-width: 1025px) and (max-width: 1399px) {
+@media only screen and (min-width: 1025px) and (max-width: 1699px) {
 	#Banner .blacksection::before {
 		width: 2050px;
 	}
